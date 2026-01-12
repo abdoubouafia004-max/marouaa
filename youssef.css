@@ -1,0 +1,284 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+/* HEADER */
+.top{
+    background:#f09fc5;
+    padding:15px;
+    text-align:center;
+}
+
+.top h1{
+    color:white;
+    margin-bottom:8px;
+}
+
+.top input{
+    width:90%;
+    padding:8px;
+    border:none;
+    border-radius:20px;
+}
+
+/* PROMO */
+.promo-banner{
+    background:linear-gradient(rgb(240, 195, 227), #ed95da);
+    color:white;
+    padding:20px;
+    text-align:center;
+}
+
+.promo-banner span{
+    font-size:32px;
+    font-weight:bold;
+}
+
+/* SERVICES */
+.services{
+    display:flex;
+    justify-content:space-around;
+    background:white;
+    padding:10px;
+    font-size:14px;
+}
+
+/* CATEGORIES */
+.categories{
+    display:flex;
+    justify-content:space-around;
+    background:white;
+    padding:15px 5px;
+}
+
+.cat{
+    text-align:center;
+    font-size:13px;
+}
+
+.cat img{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background:#eee;
+    padding:5px;
+}
+
+/* PRODUCTS */
+.products{
+    display:flex;
+    gap:15px;
+    padding:15px;
+    overflow-x:auto;
+}
+
+.card{
+    background:white;
+    width:180px;
+    border-radius:15px;
+    padding:10px;
+    position:relative;
+    box-shadow:0 5px 10px rgba(0,0,0,.15);
+}
+
+.card img{
+    width:100%;
+    border-radius:10px;
+}
+
+.card h3{
+    margin:5px 0;
+}
+
+.price{
+    color:green;
+    font-weight:bold;
+}
+
+.old{
+    text-decoration:line-through;
+    color:gray;
+    font-size:13px;
+}
+
+button{
+    width:100%;
+    background:#25D366;
+    color:white;
+    border:none;
+    padding:8px;
+    border-radius:20px;
+    margin-top:5px;
+    cursor:pointer;
+}
+
+/* PROMO BADGE */
+.badge{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:red;
+    color:white;
+    padding:4px 8px;
+    font-size:12px;
+    border-radius:20px;
+}
+/* FOOTER */
+.footer{
+    background-color: #f49de7;
+    color: white;
+    text-align: center;
+    padding: 25px 15px;
+    margin-top: 30px;
+}
+
+.footer h3{
+    margin-bottom: 10px;
+    color: #ff6a00;
+}
+
+.footer p{
+    margin: 6px 0;
+    font-size: 14px;
+}
+
+.footer a{
+    color: #1c1e1d;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+.footer hr{
+    margin: 15px auto;
+    width: 60%;
+    border: 1px solid #fcb2ed;
+}
+
+.copy{
+    font-size: 12px;
+    color: #0a0107;
+}
+section{
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.reviews{
+  background: #fff0f7;
+}
+
+.review-box{
+  background: white;
+  width: 250px;
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.review-box span{
+  color: hotpink;
+  font-weight: bold;
+}
+
+.product-row{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.mini-card{
+  width: 150px;
+  height: 100px;
+  background: #ffe1ef;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.new-badge{
+  border: 2px solid hotpink;
+}
+
+.countdown{
+  background: linear-gradient(to right, #ff9acb, #ff5fa2);
+  color: white;
+}
+
+#timer{
+  font-size: 28px;
+  margin-top: 15px;
+  font-weight: bold;
+}
+.info-section, .about-section, .faq-section{
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.info-section{
+  background: #fff0f7;
+}
+
+.info-box{
+  background: white;
+  width: 280px;
+  display: inline-block;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.about-section p{
+  max-width: 700px;
+  margin: 10px auto;
+  font-size: 16px;
+  color: #444;
+}
+
+.about-cards{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.about-card{
+  background: #ffe1ef;
+  padding: 15px 25px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.faq-box{
+  max-width: 600px;
+  margin: 10px auto;
+  background: white;
+  padding: 15px 20px;s
+  border-radius: 12px;
+  text-align: left;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+
+.faq-box h4{
+  color: hotpink;
+  margin-bottom: 5px;
+}
+

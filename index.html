@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Boutique Maroua</title>
+    <link rel="stylesheet" href="youssef.css">
+</head>
+<body>
+
+<!-- HEADER -->
+<header class="top">
+    <h1>Maroua Shop</h1>
+    <input type="text" placeholder="Rechercher...">
+</header>
+
+<!-- PROMO BANNER -->
+<section class="promo-banner">
+    <h2>Jusqu'à <span>60%</span></h2>
+    <p>Promotions spéciales</p>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+    <div>✔ Retours gratuits</div>
+    <div>⭐ Points fidélité</div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+    <div class="cat">
+        <img src="images/Capture d'écran 2026-01-02 113415.png">
+        <p>Femme</p>
+    </div>
+    <div class="cat">
+        <img src="images/Capture d'écran 2026-01-05 093158.png">
+        <p>Curvy</p>
+    </div>
+    <div class="cat">
+        <img src="images/Capture d'écran 2026-01-02 113441.png">
+        <p>Enfant</p>
+    </div>
+    <div class="cat">
+        <img src="images/Capture d'écran 2026-01-02 113431.png">
+        <p>Homme</p>
+    </div>
+</section>
+
+<!-- PRODUITS -->
+<section class="products">
+
+    <div class="card promo">
+        <span class="badge">-20%</span>
+        <img src="images/Capture d'écran 2026-01-05 094234.png">
+        <h3>T-Shirt</h3>
+        <p class="old">150 DH</p>
+        <p class="price">120 DH</p>
+        <button onclick="window.open('https://wa.me/212646832859','_blank')">
+            Acheter WhatsApp
+        </button>
+    </div>
+
+    <div class="card">
+        <img src="images/Capture d'écran 2026-01-05 094538.png">
+        <h3>Pantalon</h3>
+        <p class="price">220 DH</p>
+        <button onclick="window.open('https://wa.me/212646832859','_blank')">
+            Acheter WhatsApp
+        </button>
+    </div>
+    <div class="card">
+    <img src="images/Capture d'écran 2026-01-05 095100.png" alt="Veste">
+    <h3>Veste</h3>
+
+    <p class="price">350 DH</p>
+
+    <button onclick="window.open('https://wa.me/212646832859?text=Bonjour%20je%20veux%20acheter%20la%20Veste%20à%20350DH','_blank')">
+        Acheter WhatsApp
+    </button>
+</div>
+<div class="card promo">
+    <span class="badge">-30%</span>
+    <img src="images/Capture d'écran 2026-01-05 095417.png" alt="Robe">
+    <h3>Robe</h3>
+
+    <p class="old">400 DH</p>
+    <p class="price">280 DH</p>
+
+    <button onclick="window.open('https://wa.me/212646832859?text=Bonjour%20je%20veux%20acheter%20la%20Robe%20à%20280DH','_blank')">
+        Acheter WhatsApp
+    </button>
+</div>
+<div class="card promo">
+    <span class="badge">-20%</span>
+    <img src="images/Capture d'écran 2026-01-05 100123.png" alt="Talon">
+    <h3>Talon</h3>
+
+    <p class="old">500 DH</p>
+    <p class="price">400 DH</p>
+
+    <button onclick="window.open('https://wa.me/212646832859?text=Bonjour%20je%20veux%20acheter%20le%20Talon%20à%20400DH','_blank')">
+        Acheter WhatsApp
+    </button>
+</div>
+<div class="card">
+    <img src="images/Capture d'écran 2026-01-05 100133.png" alt="Spadrille">
+    <h3>Spadrille</h3>
+
+    <p class="price">280 DH</p>
+
+    <button onclick="window.open('https://wa.me/212646832859?text=Bonjour%20je%20veux%20acheter%20la%20Spadrille%20à%20280DH','_blank')">
+        Acheter WhatsApp
+    </button>
+</div>
+
+
+
+</section>
+
+<section class="reviews">
+  <h2>⭐ آراء الزبناء</h2>
+
+  <div class="review-box">
+    <p>“زوينين بزاف والقياس مناسب 👌”</p>
+    <span>— Sara</span>
+  </div>
+
+  <div class="review-box">
+    <p>“التوصيل سريع وجودة ممتازة 😍”</p>
+    <span>— Imane</span>
+  </div>
+
+  <div class="review-box">
+    <p>“أكيد غادي نعاود نطلب منهم”</p>
+    <span>— Hind</span>
+  </div>
+</section>
+<section class="best">
+  <h2>🔥 الأكثر مبيعاً</h2>
+  <div class="product-row">
+    <div class="mini-card">Robe rouge</div>
+    <div class="mini-card">Talon noir</div>
+    <div class="mini-card">Spadrille</div>
+  </div>
+</section>
+
+<section class="new">
+  <h2>🆕 New Collection</h2>
+  <div class="product-row">
+    <div class="mini-card new-badge">Nouvelle robe</div>
+    <div class="mini-card new-badge">Veste 2026</div>
+    <div class="mini-card new-badge">Sac tendance</div>
+  </div>
+</section>
+<section class="countdown">
+  <h2>⏳ العرض ينتهي بعد</h2>
+  <div id="timer">00j : 00h : 00m : 00s</div>
+</section>
+<section class="info-section">
+  <h2>📦 سياسة التوصيل والإرجاع</h2>
+
+  <div class="info-box">
+    <h3>🚚 التوصيل</h3>
+    <p>• التوصيل لجميع مدن المغرب خلال 24h إلى 48h.</p>
+    <p>• التوصيل يتم عبر شركة مختصة.</p>
+    <p>• الأداء عند الاستلام متوفر.</p>
+  </div>
+
+  <div class="info-box">
+    <h3>🔄 الإرجاع</h3>
+    <p>• يمكن إرجاع المنتج خلال 48 ساعة.</p>
+    <p>• المنتج يجب أن يكون في حالته الأصلية.</p>
+    <p>• مصاريف الإرجاع على حساب الزبون إلا في حالة الخطأ.</p>
+  </div>
+</section>
+<section class="about-section">
+  <h2>🏬 من نحن - Maroua Shop</h2>
+
+  <p>
+    Maroua Shop هو متجر إلكتروني متخصص في بيع الملابس والأحذية العصرية
+    بجودة عالية وأثمنة مناسبة لجميع الأذواق.
+  </p>
+
+  <p>
+    هدفنا هو تقديم منتجات جميلة، توصيل سريع، وخدمة زبناء ممتازة.
+  </p>
+
+  <div class="about-cards">
+    <div class="about-card">✔ جودة مضمونة</div>
+    <div class="about-card">🚚 توصيل سريع</div>
+    <div class="about-card">💬 دعم عبر واتساب</div>
+  </div>
+</section>
+<section class="faq-section">
+  <h2>❓ الأسئلة الشائعة</h2>
+
+  <div class="faq-box">
+    <h4>كيفاش نطلب؟</h4>
+    <p>تقدري تضغطي على Acheter WhatsAppوترسلي لنا المنتج مباشرة.</p>
+  </div>
+
+  <div class="faq-box">
+    <h4>واش كاين الأداء عند الاستلام؟</h4>
+    <p>نعم، الأداء عند الاستلام متوفر.</p>
+  </div>
+
+  <div class="faq-box">
+    <h4>في شحال كيوصل الطلب؟</h4>
+    <p>بين 24 و 48 ساعة حسب المدينة.</p>
+  </div>
+
+  <div class="faq-box">
+    <h4>واش نقدر نرجع المنتج؟</h4>
+    <p>نعم، خلال 48 ساعة إذا كان في حالته الأصلية.</p>
+  </div>
+</section>
+
+
+
+
+
+<footer class="footer">
+    <h3>Maroua Shop</h3>
+
+    <p>📍 Vente de vêtements & chaussures</p>
+
+    <p>
+        📞 WhatsApp :
+        <a href="https://wa.me/212646832859" target="_blank">
+            06 46 83 28 59
+        </a>
+    </p>
+
+    <p>
+        📸 Instagram :
+        <a href="#" target="_blank">
+            @maroua_shop
+        </a>
+    </p>
+
+    <hr>
+
+    <p class="copy">
+        © 2026 Maroua Shop – Tous droits réservés
+    </p>
+</footer>
+
+
+
+</body>
+</html>
